@@ -1,0 +1,53 @@
+{
+  "header": {
+    "title": "MINISTRY OF PRESCHOOL AND SCHOOL EDUCATION",
+    "subtitle": "Official website of the Ministry of Preschool and School Education of the Republic of Uzbekistan for vacant positions \"Vacant\"."
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "vacancyIndex": "Vacancy Index"
+  },
+  "filters": {
+    "region": "Region/City/Republic",
+    "rayon": "District/City",
+    "school": "Schools",
+    "positionLevel": "Position Level",
+    "position": "Positions",
+    "search": "Search",
+    "clear": "Clear"
+  },
+  "table": {
+    "id": "ID",
+    "position": "Positions",
+    "salary": "Salary",
+    "experience": "Experience in Education",
+    "vacancyHours": "Total Vacant Hours",
+    "privileges": "Privileges",
+    "deadline": "Deadline",
+    "action": "Activity",
+    "apply": "Apply",
+    "loading": "Loading...",
+    "noResults": "No results found"
+  },
+  "modal": {
+    "title": "Position Information",
+    "workplace": "Workplace",
+    "position": "Position",
+    "salary": "Salary",
+    "experience": "Experience in Education",
+    "vacancyHours": "Total Vacant Hours",
+    "education": "Education Information",
+    "jobType": "Job Type",
+    "paymentType": "Payment Type",
+    "employment": "Workplace Employment",
+    "contact": "Contact Phone Number",
+    "publishedDate": "Published Date",
+    "deadline": "Document Submission Deadline",
+    "deadlinePassed": "Document submission deadline has passed"
+  },
+  "common": {
+    "negotiable": "Negotiable",
+    "notSpecified": "-",
+    "currency": "UZS"
+  }
+}

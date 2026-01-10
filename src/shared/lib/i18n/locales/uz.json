@@ -1,0 +1,53 @@
+{
+  "header": {
+    "title": "MAKTABGACHA VA MAKTAB TA'LIMI VAZIRLIGI",
+    "subtitle": "O'zbekiston Respublikasi maktabgacha va maktab ta'limi vazirligi bo'sh ish o'rinlari \"Vakant\" lavozimlar bo'yicha vazirlikning rasmiy sayti."
+  },
+  "breadcrumb": {
+    "home": "Bosh sahifa",
+    "vacancyIndex": "Vakant lavozimlar"
+  },
+  "filters": {
+    "region": "Viloyat/Shahar/Respublika",
+    "rayon": "Tuman/Shahar",
+    "school": "Maktablar",
+    "positionLevel": "Lavozim darajasi",
+    "position": "Lavozimlar",
+    "search": "Qidirish",
+    "clear": "Tozalash"
+  },
+  "table": {
+    "id": "ID",
+    "position": "Lavozimlar",
+    "salary": "Maosh",
+    "experience": "Ta'lim sohasidagi staj",
+    "vacancyHours": "Jami vakant dars soati",
+    "privileges": "Imtiyoz",
+    "deadline": "Muddat",
+    "action": "Faollik",
+    "apply": "Murojaat qilish",
+    "loading": "Yuklanmoqda...",
+    "noResults": "Hech qanday natija topilmadi"
+  },
+  "modal": {
+    "title": "Lavozim haqida ma'lumot",
+    "workplace": "Ish joyi",
+    "position": "Lavozim",
+    "salary": "Maosh",
+    "experience": "Ta'lim sohasidagi staj",
+    "vacancyHours": "Jami vakant dars soati",
+    "education": "Ta'limga oid ma'lumotlar",
+    "jobType": "Ish turi",
+    "paymentType": "To'lov turi",
+    "employment": "Ish o'rnining bandligi",
+    "contact": "Bog'lanish telefon raqami",
+    "publishedDate": "E'lonni joylashtirilgan sana",
+    "deadline": "Hujjatlarni qabul qilish muddati",
+    "deadlinePassed": "Hujjat qabul qilish muddati tugadi"
+  },
+  "common": {
+    "negotiable": "Kelishiladi",
+    "notSpecified": "-",
+    "currency": "so'm"
+  }
+}
