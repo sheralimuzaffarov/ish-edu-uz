@@ -13,9 +13,8 @@ interface SEOHeadProps {
  * Can be used for future enhancements like per-vacancy pages
  */
 export function SEOHead({ title, description, image, url }: SEOHeadProps) {
-  const { t, i18n } = useTranslation();
+  const { i18n } = useTranslation();
   const currentLang = i18n.language;
-  const baseUrl = 'https://ish.uzedu.uz';
 
   useEffect(() => {
     // Update document title
