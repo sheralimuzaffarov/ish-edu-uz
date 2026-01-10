@@ -1,5 +1,14 @@
 # Education Jobs Website - Vakant Lavozimlar
 
+> **⚠️ IMPORTANT NOTICE**
+> 
+> This is a **test case version** developed exclusively for **ish.uzedu.uz**. This version is **NOT the original version** and is intended for testing purposes only.
+> 
+> **Credentials & Access:**
+> - This repository is for development and testing purposes
+> - All credentials and API access are configured for the ish.uzedu.uz domain
+> - This is a modified/adapted version of the original project
+
 Official website for vacant positions in education - Ministry of Preschool and School Education of the Republic of Uzbekistan.
 
 ## 🌟 Overview
@@ -265,10 +274,14 @@ This project is private and proprietary. All rights reserved.
 
 Ministry of Preschool and School Education of the Republic of Uzbekistan
 
+**Development Note**: This test case version is developed exclusively for ish.uzedu.uz and is not the original version.
+
 ## 🔗 Links
 
-- **Production URL**: [https://ish.uzedu.uz](https://ish.uzedu.uz)
+- **Target Domain**: [https://ish.uzedu.uz](https://ish.uzedu.uz)
 - **API Base URL**: [https://ish.uzedu.uz/api/api](https://ish.uzedu.uz/api/api)
+
+**Note**: This project is developed exclusively for ish.uzedu.uz domain. All API endpoints and configurations are set up for this specific domain.
 
 ## 📞 Support
 
@@ -276,4 +289,6 @@ For issues, questions, or support, please contact the Ministry of Preschool and 
 
 ---
 
-**Note**: This is the official website for vacant positions in education. For the most up-to-date information, please visit the production site.
+**⚠️ Disclaimer**: 
+
+This is a **test case version** developed exclusively for **ish.uzedu.uz**. This version is **NOT the original version** and is intended for testing and development purposes only. This is a modified/adapted implementation and should not be considered the official or original version of the project.
