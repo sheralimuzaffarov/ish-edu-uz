@@ -16,6 +16,7 @@ export default defineConfig({
   },
   build: {
     outDir: 'dist',
-    sourcemap: true,
+    sourcemap: false, // Disable source maps in production to hide source code
+    minify: 'esbuild', // Minify code for production
   },
 })
