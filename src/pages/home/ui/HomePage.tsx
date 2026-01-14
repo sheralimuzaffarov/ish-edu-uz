@@ -44,7 +44,7 @@ export function HomePage() {
     
     // Fetch vacancies with URL params or defaults
     fetchVacancies(finalFilters);
-  }, []); // Only run on mount
+  }, [fetchVacancies, initializeFromURL]); // Only run on mount (store actions are stable)
 
   return (
     <div className="min-h-screen bg-gray-100">

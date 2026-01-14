@@ -7,6 +7,14 @@ import {
   VacancyFilters,
 } from "./types";
 
+function getErrorMessage(error: unknown): string {
+  if (error && typeof error === "object" && "message" in error) {
+    const maybeMessage = (error as { message?: unknown }).message;
+    if (typeof maybeMessage === "string" && maybeMessage.trim()) return maybeMessage;
+  }
+  return "Unknown error";
+}
+
 interface VacancyState {
   vacancies: Vacancy[];
   pagination: PaginationMeta | null;
@@ -37,9 +45,9 @@ export const useVacancyStore = create<VacancyState>((set) => ({
         isLoading: false,
         currentPage: response.data.current_page,
       });
-    } catch (error: any) {
+    } catch (error: unknown) {
       set({
-        error: error.message || "Failed to fetch vacancies",
+        error: getErrorMessage(error) || "Failed to fetch vacancies",
         isLoading: false,
       });
     }
@@ -52,9 +60,9 @@ export const useVacancyStore = create<VacancyState>((set) => ({
         selectedVacancy: response.data,
         isLoading: false,
       });
-    } catch (error: any) {
+    } catch (error: unknown) {
       set({
-        error: error.message || "Failed to fetch vacancy details",
+        error: getErrorMessage(error) || "Failed to fetch vacancy details",
         isLoading: false,
       });
     }
