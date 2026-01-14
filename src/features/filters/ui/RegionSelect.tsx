@@ -29,7 +29,7 @@ export function RegionSelect() {
   return (
     <div>
       <Select.Root
-        value={regionId?.toString() || undefined}
+        value={regionId?.toString() ?? ""}
         onValueChange={(value) =>
           setRegionId(value ? parseInt(value) : null)
         }

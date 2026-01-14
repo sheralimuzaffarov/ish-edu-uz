@@ -29,7 +29,7 @@ export function PositionLevelSelect() {
   return (
     <div>
       <Select.Root
-        value={positionLevelId?.toString() || undefined}
+        value={positionLevelId?.toString() ?? ""}
         onValueChange={(value) =>
           setPositionLevelId(value ? parseInt(value) : null)
         }

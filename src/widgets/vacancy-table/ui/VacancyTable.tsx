@@ -7,6 +7,17 @@ export function VacancyTable() {
   const { t } = useTranslation();
   const { vacancies, isLoading } = useVacancyStore();
 
+  const cols = [
+    { width: "5%", label: "ID" },
+    { width: "25%", label: "Position" },
+    { width: "12%", label: "Salary" },
+    { width: "15%", label: "Experience" },
+    { width: "10%", label: "Vacancy Hours" },
+    { width: "10%", label: "Privileges" },
+    { width: "10%", label: "Deadline" },
+    { width: "13%", label: "Action" },
+  ] as const;
+
   if (isLoading) {
     return (
       <div className="card mt-4">
@@ -34,14 +45,9 @@ export function VacancyTable() {
         <div className="hidden sm:block w-full overflow-x-auto">
           <table className="table table-striped table-hover w-full" style={{ tableLayout: 'fixed', minWidth: '1000px' }}>
             <colgroup>
-              <col style={{ width: '5%' }} /> {/* ID */}
-              <col style={{ width: '25%' }} /> {/* Position */}
-              <col style={{ width: '12%' }} /> {/* Salary */}
-              <col style={{ width: '15%' }} /> {/* Experience */}
-              <col style={{ width: '10%' }} /> {/* Vacancy Hours */}
-              <col style={{ width: '10%' }} /> {/* Privileges */}
-              <col style={{ width: '10%' }} /> {/* Deadline */}
-              <col style={{ width: '13%' }} /> {/* Action */}
+              {cols.map((c) => (
+                <col key={c.label} style={{ width: c.width }} />
+              ))}
             </colgroup>
             <thead>
               <tr className="bg-gray-200">

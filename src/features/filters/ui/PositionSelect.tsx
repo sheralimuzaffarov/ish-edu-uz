@@ -36,7 +36,7 @@ export function PositionSelect() {
   return (
     <div className="mt-3">
       <Select.Root
-        value={positionId?.toString() || undefined}
+        value={positionId?.toString() ?? ""}
         onValueChange={(value) => setPositionId(value ? parseInt(value) : null)}
         disabled={isLoading || !positionLevelId}
       >

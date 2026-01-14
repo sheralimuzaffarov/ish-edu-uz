@@ -40,7 +40,7 @@ export function RayonSelect() {
   return (
     <div className="mt-3">
       <Select.Root
-        value={rayonId?.toString() || undefined}
+        value={rayonId?.toString() ?? ""}
         onValueChange={(value) => setRayonId(value ? parseInt(value) : null)}
         disabled={isLoading}
       >

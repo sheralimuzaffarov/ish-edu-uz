@@ -16,7 +16,7 @@ export function SchoolSelect() {
   return (
     <div className="mt-2">
       <Select.Root
-        value={schoolId?.toString() || undefined}
+        value={schoolId?.toString() ?? ""}
         onValueChange={(value) => setSchoolId(value ? parseInt(value) : null)}
         disabled={true}
       >
